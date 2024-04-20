@@ -1,0 +1,23 @@
+  
+[
+  {
+    "key": "cmd+shift+l",
+    "command": "workbench.action.tasks.runTask",
+    "args": "Run Current Tests"
+  },
+  {
+    "key": "cmd+l",
+    "command": "workbench.action.tasks.runTask",
+    "args": "Run Focused Test"
+  },
+  {
+    "key": "cmd+shift+c",
+    "command": "workbench.action.tasks.runTask",
+    "args": "Format Current File"
+  },
+  {
+    "key": "cmd+shift+d",
+    "command": "workbench.action.tasks.runTask",
+    "args": "Debug Focused Test"
+  }
+]
