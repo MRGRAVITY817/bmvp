@@ -7,7 +7,7 @@ defmodule Bmvp.Articles.Article do
   schema "articles" do
     field :title, :string
     field :content, :string
-    field :auther_id, :binary_id
+    field :author_id, :binary_id
 
     timestamps(type: :utc_datetime)
   end
@@ -15,7 +15,7 @@ defmodule Bmvp.Articles.Article do
   @doc false
   def changeset(article, attrs) do
     article
-    |> cast(attrs, [:title, :content])
+    |> cast(attrs, [:title, :content, :author_id])
     |> validate_required([:title, :content])
   end
 end
